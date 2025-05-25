@@ -13,7 +13,7 @@ export default function ScanScreen() {
   const [cameraVisible, setCameraVisible] = useState(false);
   
   const checkCameraPermission = async () => {
-    if (Platform.OS === "android") return true;
+    //if (Platform.OS === "android") return true;
 
     // If permission is undetermined, we can request it
     if (cameraPermission.status === "undetermined") {

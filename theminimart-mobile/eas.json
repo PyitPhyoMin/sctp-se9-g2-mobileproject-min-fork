@@ -1,0 +1,9 @@
+{
+  "build": {
+    "theminimartapp": {
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  }
+}

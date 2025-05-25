@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "theminimart-mobile",
-    "slug": "theminimart-mobile",
+    "name": "The Mart",
+    "slug": "theminimart-mobileapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/bluebag.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -17,11 +17,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/bluebag.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "permissions": ["CAMERA"]
+      "permissions": [
+        "CAMERA"
+      ],
+      "package": "com.pyitphyomin.theminimartmobileapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -39,6 +42,11 @@
           "photosPermission": "The app accesses your photos to let you share them with your friends."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b1b7208b-25ce-4841-9525-526acc0e6f53"
+      }
+    }
   }
 }
